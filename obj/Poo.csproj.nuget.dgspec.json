@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/marcelo/dev/Poo/Poo.csproj": {}
+  },
+  "projects": {
+    "/home/marcelo/dev/Poo/Poo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/marcelo/dev/Poo/Poo.csproj",
+        "projectName": "Poo",
+        "projectPath": "/home/marcelo/dev/Poo/Poo.csproj",
+        "packagesPath": "/home/marcelo/.nuget/packages/",
+        "outputPath": "/home/marcelo/dev/Poo/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/marcelo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.data.SqlClient": {
+              "target": "Package",
+              "version": "[2.1.3, )"
+            },
+            "dapper": {
+              "target": "Package",
+              "version": "[2.0.90, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/marcelo/.dotnet/sdk/6.0.413/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
